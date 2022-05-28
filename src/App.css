@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* css */
+.card-img-top{
+  width: 200px;
+  height: 300px;
+}
+/* css */
+.image-news{
+  width:120px
+}
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  }
+  
+  th {
+    width: 400px;
+  border-bottom: 1px solid rgb(179, 127, 127);
+  border: 2px solid rgb(16, 15, 15);
+  background-color: rgba(222, 165, 198, 0.581);
+  }
+  
+  td {
+  text-align: center;
+  border: 2px solid rgb(177, 126, 126);
+  }
+.hinhanh{
+  height: 300px;
+  width: 200px 
+}
+.Container{
+  margin: 2% 5%;
+  display: grid;
+  grid-template-columns: 30% 30% 20%;
+}
+.content{
+  width: 70%;
+}
+.content  img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}

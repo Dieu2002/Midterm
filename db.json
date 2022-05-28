@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "name": "Đầm dạ hội xinh xắn ",
+      "price": " 299000",
+      "oldPrice": "",
+      "image": "images/shopping (3).webp",
+      "quantity": "2",
+      "id": 4
+    },
+    {
+      "name": "Đầm đẹp mê ly nè ",
+      "price": "200000",
+      "oldPrice": "",
+      "image": "images/shopping (5).webp",
+      "quantity": "1",
+      "id": 5
+    },
+    {
+      "name": "Váy đẹp chi mà hắn đẹp ",
+      "price": "5000000",
+      "oldPrice": "",
+      "image": "images/shopping (2).webp",
+      "quantity": "1",
+      "id": 7
+    },
+    {
+      "name": "Đầm đẹp lắm nahhh",
+      "price": "300000",
+      "oldPrice": "",
+      "image": "images/shopping.png",
+      "quantity": "4",
+      "id": 8
+    },
+    {
+      "name": "Váy ",
+      "price": "200000",
+      "oldPrice": "",
+      "image": "images/shopping (3).webp",
+      "quantity": "1",
+      "id": 9
+    },
+    {
+      "name": "Váy đẹp ",
+      "price": " 299000",
+      "oldPrice": "",
+      "image": "images/shopping (5).webp",
+      "quantity": "2",
+      "id": 10
+    },
+    {
+      "name": "sky",
+      "price": "200000",
+      "oldPrice": "",
+      "image": "images/shopping (1).png",
+      "quantity": "2",
+      "id": 11
+    }
+  ]
+}

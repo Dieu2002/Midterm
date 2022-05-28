@@ -1,0 +1,36 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "xinh gái",
+      "content": "Phượng xinh gái nhất phòng 309",
+      "author": "Phượng iu dấu",
+      "date": "2022/05/27",
+      "image": "images/hinh1.png"
+    },
+    {
+      "id": "2",
+      "title": "xinh gái",
+      "content": "Phượng xinh gái nhất phòng 309",
+      "author": "Phượng iu dấu",
+      "date": "2022/05/27",
+      "image": "images/hinh1.png"
+    },
+    {
+      "id": "3",
+      "title": "xinh gái",
+      "content": "Phượng xinh gái nhất phòng 309",
+      "author": "Phượng iu dấu",
+      "date": "2022/05/27",
+      "image": "images/hinh1.png"
+    },
+    {
+      "id": "4",
+      "title": "xinh gái",
+      "content": "Phượng xinh gái nhất phòng 309",
+      "author": "Phượng iu dấu",
+      "date": "2022/05/27",
+      "image": "images/hinh1.png"
+    }
+  ]
+}
