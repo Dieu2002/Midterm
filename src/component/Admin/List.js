@@ -16,6 +16,7 @@ class List extends Component {
       author: '',
       date: '',
       image: '',
+      type:''
     }
     this.onDelete = this.onDelete.bind(this);
     this.onChange = this.onChange.bind(this);
@@ -39,6 +40,7 @@ class List extends Component {
           image: data.image,
           date: data.date,
           author: data.author,
+          type:data.type
         });
       }).catch(err => {
       });
@@ -80,6 +82,7 @@ class List extends Component {
       author: newss.author,
       image: newss.image,
       date: newss.date,
+      type:newss.type
     });
     document.getElementById('image-edit').style.display = 'block';
     alert(id);
@@ -105,6 +108,7 @@ class List extends Component {
             author: this.state.author,
             image: this.state.image,
             date: this.state.date,
+            type:this.state.type
           }
 
         }).then(res => {
@@ -124,6 +128,8 @@ class List extends Component {
           author: this.state.author,
           image: this.state.image,
           date: this.state.date,
+          type:this.state.type
+
         }
 
       }).then(res => {
@@ -138,6 +144,7 @@ class List extends Component {
       author: '',
       date: '',
       image: '',
+      type:''
     });
   }
   onDelete = (id) => {
@@ -222,6 +229,18 @@ class List extends Component {
                 />
               </div>
               <div className="form-group">
+                <label htmlFor="exampleInputPassword1">type</label>
+                <input
+                  type="text"
+                  name="type"
+                  onChange={this.onChange}
+                  value={this.state.type}
+                  className="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Type"
+                />
+              </div>
+              <div className="form-group">
                 <label htmlFor="exampleInputEmail2">Date</label>
                 <input
                   type="date"
@@ -252,6 +271,7 @@ class List extends Component {
                     <th>CONTENT</th>
                     <th className='date-news'>DATE</th>
                     <th className='date-news'>AUTHOR</th>
+                    <th>Type</th>
                     <th>ACTION</th>
                   </tr>
                 </thead>
@@ -269,6 +289,7 @@ class List extends Component {
                         <td>{
                           newss.author
                         }</td>
+                        <td>{newss.type}</td>
                         <td><button className="btn btn-light action-button" role="button" href="#" onClick={() => this.showEditProduct(newss.id)}>
                           Edit
                         </button>

@@ -1,9 +1,9 @@
 import './App.css';
 import React, { Component } from 'react';
-import axios from 'axios';
+//import axios from 'axios';
 import { Route, Switch, Link, BrowserRouter } from 'react-router-dom';
 
-import Header from './component/Header';
+import Header from './component/Header/Header';
 import routes from './component/routee';
 class App extends Component {
 

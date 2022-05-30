@@ -1,13 +1,13 @@
 import React from 'react';
-import List from './List';
-import Contact from './Contact';
-import About from './About';
-import Homee from './Homee';
+import List from '../component/Admin/List';
+import Contact from '../component/About/Contact';
+import About from '../component/About/About';
+import Home from '../component/Content/Home/Home';
 
 const routes = [{
     path: '/',
     exact: true,
-    main: () => <Homee />
+    main: () => <Home />
 },
 {
     path: '/About',
